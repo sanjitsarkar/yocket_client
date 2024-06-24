@@ -125,9 +125,9 @@ const CopSelectionPage = () => {
   return (
     <div className="p-4">
       {citiesLoading || vehiclesLoading ? (
-        <div className="text-center">Loading...</div>
+        <div className="text-center mt-16">Loading...</div>
       ) : citiesError || vehiclesError ? (
-        <div className="text-center text-red-500">
+        <div className="text-center text-red-500 mt-16">
           Error loading data. Please try again later.
         </div>
       ) : (
