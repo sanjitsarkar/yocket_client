@@ -28,6 +28,17 @@ To get a local copy up and running, follow these steps:
    ```
 
    Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+2. **Install dependencies:**
+
+  ```bash
+  npm install
+  ```
+
+3. **Start the server:**
+
+```bash
+npm run dev
+```
 
 ## Folder Structure
 
