@@ -149,7 +149,7 @@ const CopSelectionPage = () => {
               >
                 <h3 className="text-xl font-bold flex items-center gap-2">
                   <img
-                    src={`https://robohash.org/${cop.name}?set=set4`} // Example image API for cops
+                    src={`https://robohash.org/${cop.name}?set=set4`}
                     alt={cop.name}
                     className="w-10 h-10 rounded-full"
                   />
