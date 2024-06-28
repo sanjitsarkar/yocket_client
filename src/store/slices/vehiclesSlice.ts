@@ -38,6 +38,7 @@ const vehicleSlice = createSlice({
       state.vehicles = [];
     }
   },
+
   extraReducers: (builder) => {
     builder
       .addCase(fetchVehicles.pending, (state) => {

@@ -48,7 +48,7 @@ const citySlice = createSlice({
       })
       .addCase(fetchCities.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.payload as string;
+        state.error = action.error.message as string;
       });
   }
 });

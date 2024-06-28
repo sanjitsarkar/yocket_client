@@ -18,6 +18,7 @@ const initialState: CopsState = {
   ],
 };
 
+
 const copsSlice = createSlice({
   name: 'cops',
   initialState,
