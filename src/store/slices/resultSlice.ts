@@ -64,7 +64,11 @@ const resultSlice = createSlice({
         state.error = action.error.message;
       });
   }
+
 });
 
 export const { resetResult } = resultSlice.actions;
 export default resultSlice.reducer;
+
+
+
